@@ -20,3 +20,8 @@ function appendDriver() {
   const copyOfDrivers = [...drivers, 'Broom'];
   return copyOfDrivers
 }
+
+function appendDriver() {
+  const copyOfDrivers = ['Broom', ...drivers];
+  return copyOfDrivers
+}
