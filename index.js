@@ -18,4 +18,5 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver() {
   const copyOfDrivers = [...drivers, 'Broom'];
+  return copyOfDrivers
 }
