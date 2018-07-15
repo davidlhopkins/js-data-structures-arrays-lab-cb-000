@@ -17,11 +17,11 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function appendDriver(name) {
-  const copyOfDrivers = [...drivers, name];
+  const copyOfDrivers = [...drivers, name]
   return copyOfDrivers
 }
 
 function appendDriver(name) {
-  const copyOfDrivers = [name, ...drivers];
+  const copyOfDrivers = [name, ...drivers]
   return copyOfDrivers
 }
